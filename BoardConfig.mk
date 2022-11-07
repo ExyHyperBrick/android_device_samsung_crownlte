@@ -10,7 +10,7 @@ TARGET_SCREEN_DENSITY := 560
 TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
 
 # Vendor Security Patch
-VENDOR_SECURITY_PATCH := 2022-05-01
+VENDOR_SECURITY_PATCH := 2022-07-01
 
 # Inherit from the common tree
 include device/samsung/exynos9810-common/BoardConfigCommon.mk
