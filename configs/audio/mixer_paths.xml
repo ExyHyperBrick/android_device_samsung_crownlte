@@ -1768,7 +1768,7 @@
 	<!-- For Star project -->
 	<path name="media-mic">
 		<path name="route-ap-record" />
-		<path name="dev-main-mic" />
+		<path name="dev-dual-mic" />
 	</path>
 
 	<path name="media-2nd-mic">
@@ -4282,7 +4282,8 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN3L Digital Volume" value="96" />
+		<ctl name="IN3L Digital Volume" value="200" />
+		<ctl name="IN4L Digital Volume" value="200" />
 	</path>
 
 	<path name="gain-media-2nd-mic">
@@ -4338,7 +4339,7 @@
 
 	<!-- voice recording input volume -->
 	<path name="gain-recording-mic">
-		<ctl name="IN3L Digital Volume" value="120" />
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-recording-2nd-mic">
@@ -4425,7 +4426,7 @@
 
 	<!-- recognition input volume -->
 	<path name="gain-recognition-mic">
-		<ctl name="IN3L Digital Volume" value="164" />
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-recognition-2nd-mic">
