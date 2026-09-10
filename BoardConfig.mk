@@ -3,9 +3,6 @@
 
 DEVICE_PATH := device/samsung/crownlte
 
-# Camera
-$(call soong_config_set,samsungCameraVars,extra_ids,50)
-
 # Display
 TARGET_SCREEN_DENSITY := 560
 
