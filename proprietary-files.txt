@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version N960FXXSAFWB3, unless pinned
+# Proprietary files - from Samsung package version N960FXXSAFWB3
 
 # Audio
 vendor/etc/floating_feature.xml
@@ -6,6 +6,11 @@ vendor/etc/floating_feature.xml
 # Audio - Dolby Atmos
 vendor/etc/dolby/dax-default.xml
 vendor/lib/soundfx/libswdap.so
+
+# Audio - Samsung SoundBooster
+vendor/etc/SoundBoosterParam.txt
+vendor/lib/lib_SoundBooster_ver950.so;MODULE=exynos9810_soundbooster_dsp
+vendor/lib64/lib_SoundBooster_ver950.so;MODULE=exynos9810_soundbooster_dsp
 
 # Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
